@@ -623,6 +623,53 @@ footer {
     font-size: 11px;
   }
 }
+  /* JOIN CHANNEL TELEGRAM */
+.telegram-section {
+  margin: 18px 0 5px;
+}
+
+.telegram-button {
+  width: 100%;
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  padding: 14px 20px;
+  border-radius: 999px;
+  background: #229ED9;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  box-shadow: 0 8px 28px rgba(34,158,217,.35);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.telegram-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 32px rgba(34,158,217,.45);
+}
+
+.telegram-logo {
+  width: 29px;
+  height: 29px;
+  fill: #fff;
+  flex: 0 0 auto;
+}
+
+@media(max-width:700px) {
+  .telegram-button {
+    min-height: 58px;
+    font-size: 19px;
+    gap: 10px;
+  }
+
+  .telegram-logo {
+    width: 28px;
+    height: 28px;
+  }
+}
 </style>
 </head>
 
@@ -759,6 +806,29 @@ footer {
       </a>
     </div>
   </section>
+  <!-- JOIN CHANNEL TELEGRAM -->
+  <section class="telegram-section">
+
+    <a
+      class="telegram-button"
+      href="https://t.me/asupan_videyy1"
+      target="_blank"
+      rel="noopener noreferrer">
+
+      <svg
+        class="telegram-logo"
+        viewBox="0 0 24 24"
+        aria-hidden="true">
+
+        <path d="M21.8 3.2 18.5 20c-.25 1.18-.9 1.47-1.82.92l-5.02-3.7-2.42 2.33c-.27.27-.5.5-1.03.5l.37-5.1 9.28-8.38c.4-.37-.09-.57-.62-.2L5.77 13.52.8 11.97c-1.08-.34-1.1-1.08.23-1.58L20.45 3c.9-.33 1.69.2 1.35.2Z"/>
+
+      </svg>
+
+      <span>Join Channel Telegram</span>
+
+    </a>
+
+  </section>
 
   <footer>© 2026 • Video Player</footer>
 
@@ -769,7 +839,7 @@ footer {
   "use strict";
 
   const MAIN_SOURCE =
-    "https://cdn2.videy.co/9au9V7wJ1.mp4";
+    "https://cdn2.videy.co/JO79Xh5Q1.mp4";
 
   /*
     TAMBAHKAN VIDEO BARU DI SINI.
